@@ -1,0 +1,93 @@
+﻿@{
+    ViewBag.Title = "Chi Tiết Sản Phẩm";
+    var product = ViewBag.Product; // Giả sử bạn đã truyền sản phẩm từ controller vào ViewBag
+}
+@model TH_Project.ViewModel.DetailProductVM
+
+<style>
+    .category_section {
+        display: flex;
+        flex-direction: row; /* Hiển thị theo hàng ngang */
+        padding: 20px;
+    }
+
+    .cate_pick {
+        width: 30%; /* Chiếm 30% chiều rộng */
+        margin: 20px;
+    }
+
+    .category-list {
+        list-style-type: none; /* Bỏ dấu đầu dòng */
+        padding: 0; /* Bỏ padding mặc định */
+    }
+
+    .category-item {
+        margin-bottom: 10px; /* Khoảng cách giữa các mục */
+    }
+
+    .img-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-img-top {
+        width: 338px; /* Đặt chiều rộng của tất cả các ảnh */
+        height: 220px; /* Đặt chiều cao của tất cả các ảnh */
+        object-fit: cover; /* Tự động điều chỉnh ảnh để giữ nguyên tỷ lệ, không bị biến dạng */
+    }
+</style>
+
+
+<!-- end slider section -->
+
+
+
+
+<section class="category_section layout_padding" style="display: flex;">
+    <div class="cate_pick">
+        <h3>Các loại xe</h3>
+        <ul class="category-list">
+            @foreach (var item in Model.LoaiXe)
+            {
+                <li class="category-item">
+                    @Html.ActionLink(item.TenLoaiXe, "Index", "Product", new { idCD = item.MaLX }, null)
+
+                </li>
+            }
+        </ul>
+
+        <h3>Nhà phân phối</h3>
+        <ul class="category-list">
+            @foreach (var item in Model.NhaPhanPhoi)
+            {
+                <li class="category-item">
+                    @Html.ActionLink(item.TenNPP, "Index", "Product", new { idNXB = item.MaNPP }, null)
+
+                </li>
+            }
+        </ul>
+    </div>
+
+    <div class="container mt-5">
+        <h3 style="color: darkred">CHI TIẾT SẢN PHẨM</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="@Url.Content("~/Content/images/" + @Model.XEGANMAY.Anhbia)" class="img-fluid" alt="@Model.XEGANMAY.TenXe" />
+            </div>
+            <div class="col-md-6">
+                <h2>@Model.XEGANMAY.TenXe</h2>
+                <h4>Giá: @String.Format("{0:N0}", @Model.XEGANMAY.Giaban) VND</h4>
+
+                <p><strong>Mô tả:</strong> @Model.XEGANMAY.Mota</p>
+                <div id="Datmua"> <a href="@Url.Action("ThemGioHang", "GioHang", new { @MaXe = @Model.XEGANMAY.MaXe, @strURL = "Index" })" class="btn btn-primary mt-3"> Thêm vào giỏ hàng </a> </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<!-- catagory section -->
+<!-- end about section -->
+<!-- client section -->

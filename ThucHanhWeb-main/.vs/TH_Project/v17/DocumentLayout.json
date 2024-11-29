@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\IT\\LT_Web\\Th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\ThucHanhWeb-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A86C59F6-22AB-4EB4-B1ED-2610E72606DC}|TH_Project\\TH_Project.csproj|d:\\it\\lt_web\\th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\thuchanhweb-main\\th_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A86C59F6-22AB-4EB4-B1ED-2610E72606DC}|TH_Project\\TH_Project.csproj|solutionrelative:th_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A86C59F6-22AB-4EB4-B1ED-2610E72606DC}|TH_Project\\TH_Project.csproj|d:\\it\\lt_web\\th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\thuchanhweb-main\\th_project\\views\\giohang\\dathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A86C59F6-22AB-4EB4-B1ED-2610E72606DC}|TH_Project\\TH_Project.csproj|solutionrelative:th_project\\views\\giohang\\dathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A86C59F6-22AB-4EB4-B1ED-2610E72606DC}|TH_Project\\TH_Project.csproj|d:\\it\\lt_web\\th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\thuchanhweb-main\\th_project\\views\\giohang\\xacnhandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A86C59F6-22AB-4EB4-B1ED-2610E72606DC}|TH_Project\\TH_Project.csproj|solutionrelative:th_project\\views\\giohang\\xacnhandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A86C59F6-22AB-4EB4-B1ED-2610E72606DC}|TH_Project\\TH_Project.csproj|d:\\it\\lt_web\\th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\thuchanhweb-main\\th_project\\views\\giohang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A86C59F6-22AB-4EB4-B1ED-2610E72606DC}|TH_Project\\TH_Project.csproj|solutionrelative:th_project\\views\\giohang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A86C59F6-22AB-4EB4-B1ED-2610E72606DC}|TH_Project\\TH_Project.csproj|d:\\it\\lt_web\\th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\thuchanhweb-main\\th_project\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A86C59F6-22AB-4EB4-B1ED-2610E72606DC}|TH_Project\\TH_Project.csproj|solutionrelative:th_project\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A86C59F6-22AB-4EB4-B1ED-2610E72606DC}|TH_Project\\TH_Project.csproj|d:\\it\\lt_web\\th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\thuchanhweb-main\\th_project\\model\\shoppingcartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A86C59F6-22AB-4EB4-B1ED-2610E72606DC}|TH_Project\\TH_Project.csproj|solutionrelative:th_project\\model\\shoppingcartvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShoppingCartVM.cs",
+              "DocumentMoniker": "D:\\IT\\LT_Web\\Th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\ThucHanhWeb-main\\TH_Project\\Model\\ShoppingCartVM.cs",
+              "RelativeDocumentMoniker": "TH_Project\\Model\\ShoppingCartVM.cs",
+              "ToolTip": "D:\\IT\\LT_Web\\Th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\ThucHanhWeb-main\\TH_Project\\Model\\ShoppingCartVM.cs",
+              "RelativeToolTip": "TH_Project\\Model\\ShoppingCartVM.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIAxwA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:16:24.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "XacNhanDonHang.cshtml",
+              "DocumentMoniker": "D:\\IT\\LT_Web\\Th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\ThucHanhWeb-main\\TH_Project\\Views\\GioHang\\XacNhanDonHang.cshtml",
+              "RelativeDocumentMoniker": "TH_Project\\Views\\GioHang\\XacNhanDonHang.cshtml",
+              "ToolTip": "D:\\IT\\LT_Web\\Th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\ThucHanhWeb-main\\TH_Project\\Views\\GioHang\\XacNhanDonHang.cshtml",
+              "RelativeToolTip": "TH_Project\\Views\\GioHang\\XacNhanDonHang.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T14:30:52.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatHang.cshtml",
+              "DocumentMoniker": "D:\\IT\\LT_Web\\Th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\ThucHanhWeb-main\\TH_Project\\Views\\GioHang\\DatHang.cshtml",
+              "RelativeDocumentMoniker": "TH_Project\\Views\\GioHang\\DatHang.cshtml",
+              "ToolTip": "D:\\IT\\LT_Web\\Th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\ThucHanhWeb-main\\TH_Project\\Views\\GioHang\\DatHang.cshtml",
+              "RelativeToolTip": "TH_Project\\Views\\GioHang\\DatHang.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T14:29:20.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "D:\\IT\\LT_Web\\Th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\ThucHanhWeb-main\\TH_Project\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "TH_Project\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "D:\\IT\\LT_Web\\Th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\ThucHanhWeb-main\\TH_Project\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "TH_Project\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAgwM0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:14:39.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\IT\\LT_Web\\Th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\ThucHanhWeb-main\\TH_Project\\Views\\GioHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "TH_Project\\Views\\GioHang\\Index.cshtml",
+              "ToolTip": "D:\\IT\\LT_Web\\Th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\ThucHanhWeb-main\\TH_Project\\Views\\GioHang\\Index.cshtml",
+              "RelativeToolTip": "TH_Project\\Views\\GioHang\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T13:45:31.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\IT\\LT_Web\\Th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\ThucHanhWeb-main\\TH_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TH_Project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\IT\\LT_Web\\Th\u1EF1c h\u00E0nh nh\u00F3m 2\\bu\u1ED5i 1\\ThucHanhWeb-main\\TH_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TH_Project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAEwEQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T13:32:57.861Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
