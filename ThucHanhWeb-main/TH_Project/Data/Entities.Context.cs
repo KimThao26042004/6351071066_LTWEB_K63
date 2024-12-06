@@ -32,7 +32,7 @@ namespace TH_Project.Data
         public virtual DbSet<LOAIXE> LOAIXE { get; set; }
         public virtual DbSet<NHAPHANPHOI> NHAPHANPHOI { get; set; }
         public virtual DbSet<SANXUATXE> SANXUATXE { get; set; }
-        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<XEGANMAY> XEGANMAY { get; set; }
+        public virtual DbSet<Admin> Admin { get; set; }
     }
 }

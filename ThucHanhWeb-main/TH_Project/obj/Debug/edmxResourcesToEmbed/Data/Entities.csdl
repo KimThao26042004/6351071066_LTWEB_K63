@@ -80,16 +80,6 @@
     <NavigationProperty Name="HANGSANXUAT" Relationship="Self.FK_SanXuatXe_HSX" FromRole="SANXUATXE" ToRole="HANGSANXUAT" />
     <NavigationProperty Name="XEGANMAY" Relationship="Self.FK_SanXuatXe_Xe" FromRole="SANXUATXE" ToRole="XEGANMAY" />
   </EntityType>
-  <EntityType Name="sysdiagrams">
-    <Key>
-      <PropertyRef Name="diagram_id" />
-    </Key>
-    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="principal_id" Type="Int32" Nullable="false" />
-    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="version" Type="Int32" />
-    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
-  </EntityType>
   <EntityType Name="XEGANMAY">
     <Key>
       <PropertyRef Name="MaXe" />
@@ -200,7 +190,6 @@
     <EntitySet Name="LOAIXE" EntityType="Self.LOAIXE" />
     <EntitySet Name="NHAPHANPHOI" EntityType="Self.NHAPHANPHOI" />
     <EntitySet Name="SANXUATXE" EntityType="Self.SANXUATXE" />
-    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
     <EntitySet Name="XEGANMAY" EntityType="Self.XEGANMAY" />
     <AssociationSet Name="FK_Donhang" Association="Self.FK_Donhang">
       <End Role="DONDATHANG" EntitySet="DONDATHANG" />
@@ -230,5 +219,15 @@
       <End Role="XEGANMAY" EntitySet="XEGANMAY" />
       <End Role="SANXUATXE" EntitySet="SANXUATXE" />
     </AssociationSet>
+    <EntitySet Name="Admin" EntityType="QLBanXeGanMayModel.Admin" />
   </EntityContainer>
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserAdmin" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PassAdmin" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="HoTen" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
 </Schema>

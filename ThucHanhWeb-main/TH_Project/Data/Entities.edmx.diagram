@@ -5,14 +5,13 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="5a9220d6a50f4071bc00795f510a42fd" Name="Diagram1">
-        <EntityTypeShape EntityType="QLBanXeGanMayModel.CHITIETDONTHANG" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanXeGanMayModel.CHITIETDONTHANG" Width="1.5" PointX="6.625" PointY="4" IsExpanded="true" />
         <EntityTypeShape EntityType="QLBanXeGanMayModel.DONDATHANG" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
         <EntityTypeShape EntityType="QLBanXeGanMayModel.HANGSANXUAT" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
         <EntityTypeShape EntityType="QLBanXeGanMayModel.KHACHHANG" Width="1.5" PointX="0.75" PointY="11.5" IsExpanded="true" />
         <EntityTypeShape EntityType="QLBanXeGanMayModel.LOAIXE" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
         <EntityTypeShape EntityType="QLBanXeGanMayModel.NHAPHANPHOI" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
         <EntityTypeShape EntityType="QLBanXeGanMayModel.SANXUATXE" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="QLBanXeGanMayModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="7" IsExpanded="true" />
         <EntityTypeShape EntityType="QLBanXeGanMayModel.XEGANMAY" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
         <AssociationConnector Association="QLBanXeGanMayModel.FK_Donhang" ManuallyRouted="false" />
         <AssociationConnector Association="QLBanXeGanMayModel.FK_Xe" ManuallyRouted="false" />
@@ -21,6 +20,7 @@
         <AssociationConnector Association="QLBanXeGanMayModel.FK_LoaiXe" ManuallyRouted="false" />
         <AssociationConnector Association="QLBanXeGanMayModel.FK_HangSanXuat" ManuallyRouted="false" />
         <AssociationConnector Association="QLBanXeGanMayModel.FK_SanXuatXe_Xe" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="QLBanXeGanMayModel.Admin" Width="1.5" PointX="7.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

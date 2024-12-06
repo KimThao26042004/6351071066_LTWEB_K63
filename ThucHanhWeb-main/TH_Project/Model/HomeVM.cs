@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PagedList;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,10 +9,9 @@ namespace TH_Project.ViewModel
 {
     public class HomeVM
     {
-        public IEnumerable<XEGANMAY> XeGanMay { get; set; }
+        public IPagedList<XEGANMAY> XeGanMay { get; set; }
         public IEnumerable<LOAIXE> LoaiXe { get; set; }
         public IEnumerable<NHAPHANPHOI> NhaPhanPhoi { get; set; }
-
 
     }
 }
